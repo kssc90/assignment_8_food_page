@@ -1,0 +1,118 @@
+
+h1{
+    font-size: 50px;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    background-color: lightseagreen;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+.div1 img {
+    margin: 50px;
+}
+
+.div2 {
+    display: flex;
+    justify-content: center;
+}
+
+main img {
+    height: 150px;
+    width: 150px;
+    margin: 50px;
+}
+
+.plain {
+    border: 15px solid lightseagreen;
+}
+
+.dashed {
+    border: 15px solid lightseagreen;
+    border-style: dashed;
+}
+
+.square {
+    border: 15px solid lightseagreen;
+    border-style: dotted;
+}
+
+.double {
+    border: 15px solid lightseagreen;
+    border-left: 10px solid rgb(14, 77, 74);
+    border-top: 10px solid rgb(14, 77, 74);
+}
+
+.doublea {
+    border: 15px solid lightseagreen;
+    border-right: 15px solid rgb(14, 77, 74);
+    border-bottom: 15px solid rgb(14, 77, 74);
+    width: fit-content;
+}
+
+.double2 {
+    border: 15px solid lightseagreen;
+    border-right: 15px solid rgb(14, 77, 74);
+    border-bottom: 15px solid rgb(14, 77, 74);
+}
+
+.doubleb {
+    border: 15px solid lightseagreen;
+    border-left: 10px solid rgb(14, 77, 74);
+    border-top: 10px solid rgb(14, 77, 74);
+    width: fit-content;
+}
+
+.plain2 {
+    border: 10px solid lightseagreen;
+
+}
+
+.plain2a {
+    border: 10px solid lightseagreen;
+}
+
+.none {
+    box-shadow: 5px 5px 10px black;
+}
+
+.content {
+    background-color: lightseagreen;
+    color: white;
+    height: 300px;
+    border-top: 10px solid green;
+    border-left: 10px solid red;
+    border-bottom: 10px solid blue;
+    border-right: 10px solid magenta;
+    margin-bottom: 20px;
+    overflow: scroll;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px;
+    background-color: lightseagreen;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin: 30px;
+}
